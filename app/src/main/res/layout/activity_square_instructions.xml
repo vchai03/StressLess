@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".SquareInstructions">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_square_instructions"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SquareInstructions"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SQUARE BREATHING"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:text="Square breathing is a technique used when taking slow, deep breaths. It helps heighten concentration and performance.
+\n\nBefore starting the breathing pattern, find a quiet environment and adopt a comfortable, upright sitting position. Focus on your posture.
+\n\nThe circle moves in a square and changes direction every 4 seconds.
+\n\nTo use the square breathing technique:
+\n     -Empty the lungs of air
+\n     -Inhale quietly through the nose for 4 counts
+\n     -Once the circle changes direction, exhale\n      through the mouth for another 4 counts
+\n     -Repeat this pattern"
+        android:textSize="17.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="135dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="150dp"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:text="Start"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="515dp"/>
+
+</RelativeLayout>

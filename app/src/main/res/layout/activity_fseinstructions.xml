@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FSEInstructions"
+    android:background="#FFFFFF"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4-7-8 BREATHING"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="50dp"
+        android:text="Before starting the breathing pattern, adopt a comfortable sitting position and place the tip of the tongue on the tissue right behind the top front teeth.\n\nTo use the 4-7-8 technique, focus on the following breathing pattern:
+\n     -empty the lungs of air
+\n     -breathe in quietly through the nose for 4\n      seconds
+\n     -hold the breath for a count of 7 seconds
+\n     -exhale forcefully through the mouth for 8\n      seconds
+"
+        android:textSize="17.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="150dp"
+        />
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:text="Next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="500dp"/>
+</RelativeLayout>
