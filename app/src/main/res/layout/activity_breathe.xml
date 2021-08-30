@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Breathe">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_breathe"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+    //android:background="#F5FFFA"
+
+    <TextView
+        android:layout_width="197dp"
+        android:layout_height="60dp"
+        android:text="BREATHING"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="40dp"
+        android:text="Choose one of the following \n       breathing methods:"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="95dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"></TextView>
+
+    <Button
+        android:id="@+id/square_breathing"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="170dp"
+        android:text="SQUARE BREATHING"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:textStyle="bold"
+        android:background="@drawable/breathe1"
+        android:textColor="#FFFFFF"></Button>
+
+    <Button
+        android:id="@+id/four_seven_eight"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:text="4-7-8 BREATHING"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:background="@drawable/breathe2"></Button>
+
+
+</RelativeLayout>

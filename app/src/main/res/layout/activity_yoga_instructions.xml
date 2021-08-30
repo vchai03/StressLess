@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".YogaInstructions"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YOGA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginLeft="50dp"
+        android:text="Yoga is a mind body practice that combines physical poses, relaxation, and controlled breathing.
+\nThis helps lower blood pressure, lower heart rate, and reduce stress.
+\n\nYou will be able to choose yoga poses based on three difficulty levels and choose the time spent on each pose.
+\n\nBefore you begin the exercises:\n     -Find a peaceful and roomy space.
+\n     -Wear breathable and comfortable clothing
+\n     -Lay your yoga mat flat on the floor
+\n     -Focus on your breathing as you go through\n      each yoga pose"
+        android:textSize="17.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="150dp" />
+
+    <Button
+        android:id="@+id/nextYoga"
+        android:layout_width="100dp"
+        android:layout_height="55dp"
+        android:text="Next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="510dp"/>
+
+
+</RelativeLayout>

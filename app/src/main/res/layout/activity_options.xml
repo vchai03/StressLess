@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".Options">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_options"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+    //android:background="#FFFDD9"
+
+    <Button
+        android:id="@+id/meditation"
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/meditation1"
+
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="MEDITATION"
+        android:textColor="#FFF"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/breathe"
+        android:id="@+id/breathing"
+
+        android:text="BREATHING"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="405dp"
+        android:background="@drawable/sound_images"
+        android:id="@+id/sound_images"
+
+        android:text="SOUND IMAGES"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        />
+
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/exercise"
+        android:id="@+id/yoga"
+
+        android:text="YOGA"
+        android:textSize="30dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:textColor="#FFF"
+        />
+
+    <TextView
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Which stress-relief method would you like to use?"
+        android:textColor="#000000"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/recs"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="325dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:text=""
+        android:textSize="17dp" />
+
+</RelativeLayout>

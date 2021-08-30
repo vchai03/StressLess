@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".meditation">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_meditation"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="#FFFFFF">
+
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:text="MEDITATION"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="40dp"
+        android:text="Choose one of the following guided meditations (click to play and pause):"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="90dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"></TextView>
+
+
+    <Button
+        android:id="@+id/garden"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text="The Mystical Garden"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/mystical_garden"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/cottage"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp"
+        android:text="The Autumn Cottage"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/autumn_cottage"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <Button
+        android:id="@+id/temple"
+        android:layout_width="350dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="470dp"
+        android:text="The Healing Temple"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-thin"
+        android:background="@drawable/healing_temple"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\@TheHonestGuysMeditation"
+        android:textSize="10dp"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="230dp"></TextView>
+
+
+</RelativeLayout>

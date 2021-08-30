@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    tools:context=".MeditationInstructions">-->
+
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_meditation_instructions"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="60dp"
+        android:text="MEDITATION"
+        android:textSize="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="#000000"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:text="WHY MEDITATE?"
+        android:textColor="#000000"
+        android:textSize="20dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Meditation helps increase awareness of yourself and your surroundings.
+        \nIt has positive physical, emotional, mental, and spiritual benefits, which decreases the production of stress hormones."
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="140dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="17.5dp"
+        android:textColor="#000000"
+        android:text="\nThe following page consists of 3 different guided meditation audios that focus on mindfulness, relaxation, or concentration.
+\n\nBefore you start:\n      -Sit cross legged on a cushion with your \n       back straight.
+\n      -Softly close your eyes
+\n      -Naturally breathe slowly and deeply, \n       making no effort to control your breath"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="14dp"></TextView>
+
+    <Button
+        android:id="@+id/toMeditation"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Next"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp"></Button>
+
+
+</RelativeLayout>
